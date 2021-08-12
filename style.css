@@ -34,3 +34,10 @@ body {
   margin-bottom: 12px;
   font-size: 100px;
 }
+
+.container h2 {
+  color: rgba(255, 245, 225, 1);
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
