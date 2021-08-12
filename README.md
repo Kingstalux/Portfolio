@@ -25,9 +25,10 @@ To get a local copy up and running follow these simple example steps.
 - Gitbash
 
 ### Usage
-- git clone https://github.com/Kingstalux/Project_Portfolio_Mobile_Skeletun.git
-- run the command 'code .' to open the file in VS Code
-- run the command 'Shift+Alt+R' to open the file in the browser
+- `$ git clone https://github.com/Kingstalux/Project_Portfolio_Mobile_Skeletun.git`
+- `$ cd Project_Portfolio_Mobile_Skeletun`
+- run the command `code .` to open the file in VS Code
+- run the command `Shift+Alt+R` to open the file in the browser
 
 
 
@@ -53,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Microverse
 
 ## 📝 License
 
