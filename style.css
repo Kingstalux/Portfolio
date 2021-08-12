@@ -1,0 +1,12 @@
+.bar {
+  display: flex;
+  background-color: rgba(60, 58, 57, 1);
+  list-style: none;
+  color: white;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: larger;
+  padding: 0 24px;
+}
