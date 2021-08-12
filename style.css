@@ -1,0 +1,61 @@
+.bar {
+  display: flex;
+  background-color: rgba(60, 58, 57, 1);
+  list-style: none;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: larger;
+  padding: 0 25px;
+}
+
+.bar a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: rgba(28, 26, 25, 1);
+  margin: 0;
+}
+
+.main {
+  background-image: url('Group.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh;
+}
+
+.container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.container h1 {
+  color: orangered;
+  margin-top: 120px;
+  margin-bottom: 12px;
+  font-size: 100px;
+}
+
+.container h2 {
+  color: rgba(255, 245, 225, 1);
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
+
+.container p {
+  font-size: 30px;
+  color: white;
+}
+
+.icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  height: 30px;
+  margin-left: 48px;
+}
