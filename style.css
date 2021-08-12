@@ -41,3 +41,8 @@ body {
   padding: 0;
   font-size: 35px;
 }
+
+.container p {
+  font-size: 30px;
+  color: white;
+}
