@@ -10,3 +10,15 @@
   font-size: larger;
   padding: 0 24px;
 }
+
+body {
+  background-color: rgba(28, 26, 25, 1);
+  margin: 0;
+}
+
+.main {
+  background-image: url('Group.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh;
+}
