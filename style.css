@@ -22,3 +22,15 @@ body {
   background-position: bottom right;
   height: 100vh;
 }
+
+.container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.container h1 {
+  color: orangered;
+  margin-top: 120px;
+  margin-bottom: 12px;
+  font-size: 100px;
+}
