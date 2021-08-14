@@ -40,6 +40,7 @@ body {
   color: rgba(255, 107, 0, 1);
   margin: 120px 24px 12px 24px;
   font-size: 56px;
+  font-family: Crete Round;
 }
 
 .container h2 {
@@ -47,12 +48,14 @@ body {
   margin: 0 24px 0 24px;
   padding: 0;
   font-size: 24px;
+  font-family: roboto;
 }
 
 .container p {
   font-size: 16px;
   color: white;
   margin: 12px 24px 0 24px;
+  font-family: Poppins;
 }
 
 .icons {
@@ -74,6 +77,7 @@ body {
   height: 83px;
   padding: 10px;
   margin: 120px 24px 20px 24px;
+  font-family: Crete Round;
 }
 
 .works hr {
@@ -96,11 +100,13 @@ body {
   color: white;
   margin: 12px 24px 12px 24px;
   font-size: 16px;
+  font-family: inter;
 }
 
 .projects p {
   margin: 12px 40px 0 40px;
   color: white;
+  font-family: Inter;
 }
 
 .works div p {
@@ -134,6 +140,7 @@ body {
   font-size: 17px;
   font-weight: 700;
   cursor: pointer;
+  border: none;
 }
 
 .button1:hover {
@@ -161,6 +168,7 @@ body {
   font-size: 32px;
   color: white;
   margin: 84px 40px 0 40px;
+  font-family: Crete Round;
 }
 
 .sites1 ul {
@@ -174,9 +182,11 @@ body {
 
 .sites1 ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   border: 1px solid black;
   padding: 10px 12px 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
 }
 
 .button2 {
@@ -189,6 +199,7 @@ body {
   font-size: 17px;
   font-weight: 700;
   cursor: pointer;
+  border: none;
 }
 
 .button2:hover {
@@ -216,6 +227,7 @@ body {
   margin: 120px 24px 12px 24px;
   font-size: 72px;
   color: rgba(255, 107, 0, 1);
+  font-family: Crete Round;
 }
 
 .button3 {
@@ -228,6 +240,7 @@ body {
   font-size: 17px;
   font-weight: 700;
   cursor: pointer;
+  border: none;
 }
 
 .button3:hover {
