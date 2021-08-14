@@ -1,3 +1,24 @@
+body {
+  margin: 0;
+}
+
+.body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-left: 24px;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.sect {
+  width: 375px;
+  background-color: rgba(28, 26, 25, 1);
+  background-image: url('Group.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
 .bar {
   display: flex;
   background-color: rgba(60, 58, 57, 1);
@@ -15,47 +36,30 @@
   color: white;
 }
 
-body {
-  background-color: rgba(28, 26, 25, 1);
-  margin: 0;
-}
-
-.main {
-  background-image: url('Group.png');
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  height: 100vh;
-}
-
-.container {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
 .container h1 {
-  color: orangered;
-  margin-top: 120px;
-  margin-bottom: 12px;
-  font-size: 100px;
+  color: rgba(255, 107, 0, 1);
+  margin: 120px 24px 12px 24px;
+  font-size: 56px;
 }
 
 .container h2 {
   color: rgba(255, 245, 225, 1);
-  margin: 0;
+  margin: 0 24px 0 24px;
   padding: 0;
-  font-size: 35px;
+  font-size: 24px;
 }
 
 .container p {
-  font-size: 30px;
+  font-size: 16px;
   color: white;
+  margin: 12px 24px 0 24px;
 }
 
 .icons {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  max-width: 300px;
-  height: 30px;
-  margin-left: 48px;
+  height: 35px;
+  width: 200px;
+  margin-bottom: 170px;
 }
