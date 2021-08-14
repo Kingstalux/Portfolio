@@ -63,3 +63,64 @@ body {
   width: 200px;
   margin-bottom: 170px;
 }
+
+.works {
+  width: 375px
+}
+
+.works h1 {
+  font-size: 40px; 
+  width: 327px;
+  height: 83px;
+  padding: 10px;
+  margin: 120px 24px 20px 24px;
+} 
+
+.works hr {
+  width: 85%;
+}
+
+.works img {
+  margin: 80px 24px 24px 24px;
+}
+
+.heed {
+  font-size: 32px; 
+  width: 327px;
+  height: 36px;
+  margin: 0 24px 12px 24px;
+  padding: 0;
+}
+
+.works div p {
+  margin: 0 24px 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sites ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 0 24px 0 16px;
+}
+.sites ul li a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 12px 10px 12px;
+}
+
+.button1 {
+  margin: 0 24px 24px 24px;
+  color: white;
+  background-color: #FF6B00;
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+
+} 
