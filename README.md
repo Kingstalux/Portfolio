@@ -3,7 +3,7 @@
 
 # Project Portfolio Mobile Version Skeletun
 
->In the process of creating this portfolio website, I set up a new repository and prepared it for development using best practices (e.g. linters). I then build the first 3 sections of the mobile website using the template I choosed from figma.
+>In the process of creating this portfolio website, I set up a new repository and prepared it for development using best practices (e.g. linters). I then build the mobile website using the template I choosed from figma.
 
 
 
