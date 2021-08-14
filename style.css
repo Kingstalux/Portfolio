@@ -4,7 +4,7 @@ body {
 
 .body {
   margin: 0;
-  display: flex;
+  display: grid;
   justify-content: center;
   padding-left: 24px;
   flex-direction: column;
@@ -197,4 +197,37 @@ body {
   background-color: rgba(245, 88, 0, 1);
   color: #FFF5E1;
   box-sizing: border-box;
+}
+
+.about {
+  width: 375px;
+  background-color: rgba(28, 26, 25, 1);
+  background-image:url('image3.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.about h1 {
+  margin: 120px 24px 12px 24px;
+  font-size: 72px;
+  color: rgba(255, 107, 0, 1);
+}
+
+.about p {
+  color: white;
+  margin: 12px 24px 12px 24px;
+  font-size: 16px;
+}
+
+.button3 {
+  margin: 0 24px 209px 24px;
+  color: white;
+  background-color: #FF6B00;
+  width: 161px;
+  height: 48px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer; 
+  padding: 0;
 }
