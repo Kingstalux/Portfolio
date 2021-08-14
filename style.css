@@ -125,7 +125,7 @@ body {
 
 }
 
-.button1:hover {
+.button1:hover { 
   background-color: #FFF5E1;
   color: #FF6B00;
   box-sizing: border-box;
@@ -185,3 +185,16 @@ body {
   font-weight: 700;
   cursor: pointer;
 } 
+
+.button2:hover { 
+  background-color: #FFF5E1;
+  color: #FF6B00;
+  box-sizing: border-box;
+  border: 1px solid rgba(245, 88, 0, 1);
+}
+
+.button2:active {
+  background-color: rgba(245, 88, 0, 1);
+  color: #FFF5E1;
+  box-sizing: border-box;
+}
