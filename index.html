@@ -178,10 +178,10 @@
     <p>
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </p>
-    <form action="/opt" method="POST" class="form">
-      <input type="text" placeholder="Full name" class="name">
-      <input type="email" placeholder="Email address" class="email">
-      <textarea class="message">Enter your text</textarea>
+    <form action="/opt" method="post" class="form">
+      <input type="text" placeholder="Full name" name="name" maxlength="30" required>
+      <input type="email" placeholder="Email address" name="email" required>
+      <textarea name="message" maxlength="500" required>Enter your text</textarea>
       <button type="submit" class="button6">Get in touch</button>
     </form>
   </section>
