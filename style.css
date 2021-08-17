@@ -109,6 +109,18 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.contact p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 120px;
+  margin-inline: 24px;
+  color: #172b4d;
+}
+
 .works div p {
   margin: 0 24px 12px 24px;
   font-size: 16px;
@@ -283,6 +295,10 @@ body {
   padding: 12px;
 }
 
+.icons3 img {
+  margin: 5px 15px 5px 15px;
+}
+
 .info div img {
   margin-right: 12px;
 }
@@ -291,18 +307,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 373px;
-}
-
-.contact p {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  margin-top: 120px;
-  margin-inline: 24px;
-  color: #172b4d;
 }
 
 .contact .form {
@@ -339,32 +343,31 @@ body {
   border: none;
 }
 
+.form .button6 {
+  margin: 0 24px 124px 24px;
+  color: white;
+  background-color: #ff6b00;
+  width: 161px;
+  height: 48px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
 
-  .form .button6 {
-    margin: 0 24px 124px 24px;
-    color: white;
-    background-color: #ff6b00;
-    width: 161px;
-    height: 48px;
-    padding: 12px;
-    font-size: 17px;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-  }
-  
-  .form .button6:hover {
-    background-color: #fff5e1;
-    color: #ff6b00;
-    box-sizing: border-box;
-    border: 1px solid rgba(245, 88, 0, 1);
-  }
-  
-  .form .button6:active {
-    background-color: rgba(245, 88, 0, 1);
-    color: #fff5e1;
-    box-sizing: border-box;
-  }
+.form .button6:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  box-sizing: border-box;
+  border: 1px solid rgba(245, 88, 0, 1);
+}
+
+.form .button6:active {
+  background-color: rgba(245, 88, 0, 1);
+  color: #fff5e1;
+  box-sizing: border-box;
+}
 
 .footer {
   width: 375px;
@@ -377,13 +380,9 @@ body {
   width: 375px;
 }
 
-  .icons3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-
-  .icons3 img {
-    margin: 5px 15px 5px 15px;
-  }
+.icons3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
