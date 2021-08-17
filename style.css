@@ -286,3 +286,9 @@ body {
 .info div img {
   margin-right: 12px;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+}
