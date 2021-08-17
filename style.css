@@ -290,7 +290,7 @@ body {
 .contact {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 373px;
 }
 
 .contact p {
@@ -341,7 +341,7 @@ body {
 
 
   .form .button6 {
-    margin: 0 24px 209px 24px;
+    margin: 0 24px 124px 24px;
     color: white;
     background-color: #ff6b00;
     width: 161px;
@@ -364,4 +364,26 @@ body {
     background-color: rgba(245, 88, 0, 1);
     color: #fff5e1;
     box-sizing: border-box;
+  }
+
+.footer {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer hr {
+  width: 375px;
+}
+
+  .icons3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .icons3 img {
+    margin: 5px 15px 5px 15px;
   }
