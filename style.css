@@ -733,6 +733,44 @@ text-align: left;
 .footer hr {
   width: 100vw;
 }
-  
 
+}
+
+@media (min-width:1200px) {
+  .works_line h1 {
+    margin: 125px 0 20px 140px;
+    margin-left: 150px
+  }
+
+  .works3 img {
+    margin: 50px 12px 0 30px;
+  }
+
+  .projects_desktop {
+    margin: 24px 140px 130px 160px;
+  }
+
+  .contact p {
+    font-size: 36px;
+    margin-left: 14px0;
+  }
+
+  .form {
+    margin-right: 100px;
+    padding: 0;
+  }
+
+  .form input {
+    width: 650px;
+  }
+
+  .form textarea {
+    width: 684px;
+  }
+
+  .about h1 {
+    margin-top: 200px;
+  }
+
+  
 }
