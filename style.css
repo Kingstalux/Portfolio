@@ -36,6 +36,10 @@ body {
   color: white;
 }
 
+.links ul, .project_desktop, .works3, .liner {
+  display: none;
+}
+
 .container h1 {
   color: rgba(255, 107, 0, 1);
   margin: 120px 24px 12px 24px;
@@ -133,6 +137,7 @@ body {
   padding: 10px;
   justify-content: space-between;
   margin: 0 24px 0 16px;
+  max-width: 50vw;
 }
 
 .sites ul li a {
@@ -385,4 +390,53 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
+}
+
+@media (min-width: 375px) {
+  .sect {
+    width: 100vw;
+  }
+
+  .works {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .works_line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .project_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    width: 100vw;
+  }
+
+  .info {
+    width: 100vw;
+  }
+
+  .info hr {
+    width: 90%;
+  }
+
+  .contact {
+    width: 100vw;
+    align-items: center;
+  }
+
+  .footer {
+    width: 100vw;
+  }
+
 }
