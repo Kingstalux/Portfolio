@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 - Chrome Browser
 - Gitbash
 
-### Live Demo
+### A Live Demo
 - `$ http://127.0.0.1:5501/`
 
 ### Usage
