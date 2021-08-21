@@ -3,8 +3,10 @@
 
 # Project Portfolio Mobile Version Skeletun
 
->In the process of creating this portfolio website, I set up a new repository and prepared it for development using best practices (e.g. linters). I then build the mobile website using the template I choosed from figma.
-I then set up the contact form and made sure that I guide the users' experience in a way that helps them fill in the form without frustration.
+>In the process of creating this portfolio website, I set up a new repository and prepared it for development using best practices (e.g. linters). I then build the mobile version of the website using the template I choosed from figma.
+I then set up the contact form and made sure that I guide the users' experience in a way that helps them fill in the form without frustration. 
+Later I applied media queries to make sure that my website displays correctly on mobile, ipad, ipad pro and desktop screens.
+
 
 
 
@@ -15,6 +17,9 @@ I then set up the contact form and made sure that I guide the users' experience 
 - Css
 - npm
 
+## Live Demo
+
+[Live Demo Link](http://127.0.0.1:5501/)
 
 ## Getting Started
 
@@ -25,6 +30,7 @@ To get a local copy up and running follow these simple example steps.
 - VS Code
 - Chrome Browser
 - Gitbash
+
 
 ### Usage
 - `$ git clone https://github.com/Kingstalux/Project_Portfolio_Mobile_Skeletun.git`
