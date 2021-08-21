@@ -515,7 +515,8 @@ body {
   }
 
   .works3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 60% 40%;
   }
 
   .works3 img {
@@ -526,9 +527,16 @@ body {
     margin-right: 0;
   }
 
+  .heed {
+    font-size: 40px;
+    color: rgba(9, 30, 66, 1);
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
   .store {
     margin-top: 60px;
-    margin-left: 0;
+    margin-left: 10px;
     height: 448px;
     width: 380px;
   }
@@ -551,7 +559,7 @@ body {
 
   .project1 {
     width: 310px;
-    background-image: url('img2.png');
+    background-image: url('Img2.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 24px;
@@ -561,7 +569,7 @@ body {
 
   .project2 {
     width: 310px;
-    background-image: url('img3.png');
+    background-image: url('Img3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -17,6 +17,9 @@ Later I applied media queries to make sure that my website displays correctly on
 - Css
 - npm
 
+## Live Demo
+
+[Live Demo Link](http://127.0.0.1:5501/)
 
 ## Getting Started
 
@@ -28,8 +31,6 @@ To get a local copy up and running follow these simple example steps.
 - Chrome Browser
 - Gitbash
 
-### A Live Demo
-- `$ http://127.0.0.1:5501/`
 
 ### Usage
 - `$ git clone https://github.com/Kingstalux/Project_Portfolio_Mobile_Skeletun.git`
