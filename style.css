@@ -37,7 +37,7 @@ body {
 }
 
 .links ul,
-.projects_desktop,
+.project_desktop,
 .works3,
 .liner {
   display: none;
@@ -62,7 +62,7 @@ body {
   font-size: 16px;
   color: white;
   margin: 12px 24px 0 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .icons {
@@ -516,7 +516,7 @@ body {
 
   .works3 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
   }
 
   .works3 img {
@@ -545,116 +545,121 @@ body {
     font-family: 'inter', sans-serif;
   }
 
-  .projects_desktop {
+  .project_desktop {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 24px 40px 130px 40px;
     grid-column-gap: 12px;
   }
-
-  .projects_desktop div {
+  
+  .projects_art {
     width: 310px;
-    height: 370px;
-  }
-
-  .project1 {
-    width: 310px;
-    background-image: url('Img2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 24px;
-    border: 1px solid black;
-    background-size: cover;
-  }
-
-  .project2 {
-    width: 310px;
-    background-image: url('Img3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .project2 h2 {
-    font-size: 32px;
-    color: white;
-    margin: 137px 40px 0 10px;
-    font-family: 'Crete Round', serif;
-  }
-
-  .project2 p {
-    margin: 12px 40px 0 10px;
-    color: white;
-    font-family: 'Inter', sans-serif;
-  }
-
-  .project3 {
-    width: 310px;
-    background-image: url('Img4.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .project3 h2 {
-    font-size: 32px;
-    color: white;
-    margin: 176px 40px 0 10px;
-    font-family: 'Crete Round', serif;
-  }
-
-  .project3 p {
-    margin: 12px 40px 0 10px;
-    color: white;
-    font-family: 'Inter', sans-serif;
-  }
-
-  .project4 {
-    width: 375px;
+    height: 435px;
     background-image: url('image2.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     margin-bottom: 24px;
-    background-size: cover;
-  }
-
-  .project4 h2 {
-    font-size: 32px;
+    border: 1px solid transparent;
     color: white;
-    margin: 135px 40px 0 10px;
+  }
+  
+  .projects_art h2 {
+    font-size: 32px;
+    margin: 137px 40px 0 10px;
     font-family: 'Crete Round', serif;
   }
-
-  .project4 p {
-    margin: 12px 40px 0 10px;
-    color: white;
-    font-family: 'Inter', sans-serif;
+  
+  .sites1 ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 12px 24px 0 10px;
+    justify-content: space-between;
+    width: 250px;
   }
-
-  .button_project {
-    margin-top: 322px;
+  
+  .sites1 ul li{
+    padding: 10px 12px 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    border: none;
+  }
+  
+  .button2 {
     color: white;
     background-color: #ff6b00;
+    margin-left: 0;
     width: 310px;
-    height: 48px;
-    padding: 12px;
+    height: 52px;
+    padding: 15px; 
     font-size: 17px;
     font-weight: 700;
     cursor: pointer;
     border: none;
   }
-
-  .button_project:hover {
+  
+  .button2:hover {
     background-color: #fff5e1;
     color: #ff6b00;
     box-sizing: border-box;
     border: 1px solid rgba(245, 88, 0, 1);
   }
-
-  .button_project:active {
+  
+  .button2:active {
     background-color: rgba(245, 88, 0, 1);
     color: #fff5e1;
     box-sizing: border-box;
+  }
+  
+  .projects_art p {
+    margin: 12px 40px 0 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .projects_web p {
+    margin: 12px 40px 0 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .projects_web {
+    width: 310px;
+    height: 435px;
+    background-image: url('Img4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 24px;
+    border: 1px solid transparent;
+    color: white;
+  }
+  
+  .projects_web h2 {
+    font-size: 32px;
+    margin: 170px 40px 0 10px;
+    font-family: 'Crete Round', serif;
+  }
+
+  .projects_data p {
+    margin: 12px 40px 0 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .projects_data {
+    width: 310px;
+    height: 435px;
+    background-image: url('Img3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 24px;
+    border: 1px solid transparent;
+    color: white;
+  }
+  
+  .projects_data h2 {
+    font-size: 32px;
+    margin: 135px 40px 0 10px;
+    font-family: 'Crete Round', serif;
   }
 
   .about {
@@ -754,6 +759,10 @@ body {
     margin-left: 150px;
   }
 
+  .works3 {
+    grid-template-columns: 50% 50%;
+  }
+
   .works3 Img {
     margin-right: 141.5px;
     width: 684px;
@@ -776,15 +785,88 @@ body {
     margin-top: 24px;
   }
 
-  .projects_desktop {
-    margin: 24px 143.5px 130px 141.5px;
-    border: 1px solid red;
-    padding: 0;
+  .project_desktop {
+    margin: 50px 143.5px 50px 141.4px;
   }
 
-  .project1, .project2, .project3, .project4 {
-    width: 400px;
+  .projects_art, .projects_data, .projects_web {
+    width: 369px;
+  }
+
+  .projects_art h2 {
+    margin: 194px 40px 0 15px;
+  }
+
+  .projects_data h2 {
+    margin: 192px 40px 0 15px;
+  }
+
+  .projects_web h2 {
+    margin: 230px 40px 0 15px;
+  }
+
+  .projects_art:hover {
+    width: 369px;
     height: 435px;
+    background-image: url('Img2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: transparent;
+    cursor: pointer;
+  }
+  
+  .projects_art:hover .sites1 ul li {
+    display: none;
+  }
+
+  .button2 {
+    display: none;
+    width: 369px;
+    margin-left: 1px;
+  }
+  
+  
+  .projects_art:hover .button2{
+  display: block;
+  }
+
+  .projects_data:hover {
+    width: 369px;
+    height: 435px;
+    background-image: url('Img2b.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: transparent;
+    cursor: pointer;
+  }
+  
+  .projects_data:hover .sites1 ul li {
+    display: none;
+  }
+  
+  .projects_data:hover .button2{
+  display: block;
+  }
+
+  .projects_web:hover {
+    width: 369px;
+    height: 435px;
+    background-image: url('Img2c.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: transparent;
+    cursor: pointer;
+  }
+  
+  .projects_web:hover .sites1 ul li {
+    display: none;
+  }
+  
+  .projects_web:hover .button2{
+  display: block;
   }
 
   .contact p {
@@ -806,5 +888,15 @@ body {
 
   .about h1 {
     margin-top: 200px;
+  }
+
+  .container p {
+    line-height: 32px;
+    font-size: 20px;
+  }
+
+  .container h2 {
+    font-size: 32px;
+    line-height: 44px;
   }
 }
