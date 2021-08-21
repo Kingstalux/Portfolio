@@ -930,7 +930,6 @@ button:hover {
   animation-duration: 2s;
   animation-name: bgcolor_animation;
   animation-timing-function: ease-in;
-
 }
 
 @keyframes bgcolor_animation {
@@ -940,8 +939,8 @@ button:hover {
   }
 
   50% {
-    background-color:rgb(241, 194, 139);
-    color:rgba(255, 245, 225, 1);
+    background-color: rgb(241, 194, 139);
+    color: rgba(255, 245, 225, 1);
   }
 
   100% {
