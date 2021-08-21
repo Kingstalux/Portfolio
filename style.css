@@ -901,3 +901,18 @@ body {
     line-height: 44px;
   }
 }
+
+.logo {
+  animation: rotate 6s;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotateZ(-3240deg);
+  }
+}
+
+.contact p:hover {
+  transform: translate(10px);
+  color: #ff6b00;
+}
