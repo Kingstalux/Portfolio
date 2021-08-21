@@ -516,7 +516,7 @@ body {
 
   .works3 {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
   }
 
   .works3 img {
@@ -754,12 +754,37 @@ body {
     margin-left: 150px;
   }
 
-  .works3 img {
-    margin: 50px 12px 0 30px;
+  .works3 Img {
+    margin-right: 141.5px;
+    width: 684px;
+    height: 448;
+  }
+
+  .store {
+    margin-left: 80px;
+  }
+
+  .store h2 {
+    margin-bottom: 30px;
+  }
+
+  .store p {
+    width: 448px;
+    height: 140px;
+    color: rgba(9,30,66,1);
+    line-height: 28px;
+    margin-top: 24px;
   }
 
   .projects_desktop {
-    margin: 24px 140px 130px 160px;
+    margin: 24px 143.5px 130px 141.5px;
+    border: 1px solid red;
+    padding: 0;
+  }
+
+  .project1, .project2, .project3, .project4 {
+    width: 400px;
+    height: 435px;
   }
 
   .contact p {
