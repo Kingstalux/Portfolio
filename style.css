@@ -551,7 +551,7 @@ body {
     margin: 24px 40px 130px 40px;
     grid-column-gap: 12px;
   }
-  
+
   .projects_art {
     width: 310px;
     height: 435px;
@@ -563,13 +563,13 @@ body {
     border: 1px solid transparent;
     color: white;
   }
-  
+
   .projects_art h2 {
     font-size: 32px;
     margin: 137px 40px 0 10px;
     font-family: 'Crete Round', serif;
   }
-  
+
   .sites1 ul {
     display: flex;
     list-style: none;
@@ -578,49 +578,49 @@ body {
     justify-content: space-between;
     width: 250px;
   }
-  
-  .sites1 ul li{
+
+  .sites1 ul li {
     padding: 10px 12px 10px 12px;
     background: rgba(255, 255, 255, 0.24);
     border: none;
   }
-  
+
   .button2 {
     color: white;
     background-color: #ff6b00;
     margin-left: 0;
     width: 310px;
     height: 52px;
-    padding: 15px; 
+    padding: 15px;
     font-size: 17px;
     font-weight: 700;
     cursor: pointer;
     border: none;
   }
-  
+
   .button2:hover {
     background-color: #fff5e1;
     color: #ff6b00;
     box-sizing: border-box;
     border: 1px solid rgba(245, 88, 0, 1);
   }
-  
+
   .button2:active {
     background-color: rgba(245, 88, 0, 1);
     color: #fff5e1;
     box-sizing: border-box;
   }
-  
+
   .projects_art p {
     margin: 12px 40px 0 15px;
     font-family: 'Inter', sans-serif;
   }
-  
+
   .projects_web p {
     margin: 12px 40px 0 15px;
     font-family: 'Inter', sans-serif;
   }
-  
+
   .projects_web {
     width: 310px;
     height: 435px;
@@ -632,7 +632,7 @@ body {
     border: 1px solid transparent;
     color: white;
   }
-  
+
   .projects_web h2 {
     font-size: 32px;
     margin: 170px 40px 0 10px;
@@ -643,7 +643,7 @@ body {
     margin: 12px 40px 0 15px;
     font-family: 'Inter', sans-serif;
   }
-  
+
   .projects_data {
     width: 310px;
     height: 435px;
@@ -655,7 +655,7 @@ body {
     border: 1px solid transparent;
     color: white;
   }
-  
+
   .projects_data h2 {
     font-size: 32px;
     margin: 135px 40px 0 10px;
@@ -763,10 +763,10 @@ body {
     grid-template-columns: 50% 50%;
   }
 
-  .works3 Img {
+  .works3 img {
     margin-right: 141.5px;
     width: 684px;
-    height: 448;
+    height: 448px;
   }
 
   .store {
@@ -780,7 +780,7 @@ body {
   .store p {
     width: 448px;
     height: 140px;
-    color: rgba(9,30,66,1);
+    color: rgba(9, 30, 66, 1);
     line-height: 28px;
     margin-top: 24px;
   }
@@ -789,7 +789,9 @@ body {
     margin: 50px 143.5px 50px 141.4px;
   }
 
-  .projects_art, .projects_data, .projects_web {
+  .projects_art,
+  .projects_data,
+  .projects_web {
     width: 369px;
   }
 
@@ -815,7 +817,7 @@ body {
     color: transparent;
     cursor: pointer;
   }
-  
+
   .projects_art:hover .sites1 ul li {
     display: none;
   }
@@ -825,10 +827,9 @@ body {
     width: 369px;
     margin-left: 1px;
   }
-  
-  
-  .projects_art:hover .button2{
-  display: block;
+
+  .projects_art:hover .button2 {
+    display: block;
   }
 
   .projects_data:hover {
@@ -841,13 +842,13 @@ body {
     color: transparent;
     cursor: pointer;
   }
-  
+
   .projects_data:hover .sites1 ul li {
     display: none;
   }
-  
-  .projects_data:hover .button2{
-  display: block;
+
+  .projects_data:hover .button2 {
+    display: block;
   }
 
   .projects_web:hover {
@@ -860,13 +861,13 @@ body {
     color: transparent;
     cursor: pointer;
   }
-  
+
   .projects_web:hover .sites1 ul li {
     display: none;
   }
-  
-  .projects_web:hover .button2{
-  display: block;
+
+  .projects_web:hover .button2 {
+    display: block;
   }
 
   .contact p {
