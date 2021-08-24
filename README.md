@@ -6,6 +6,7 @@
 >In the process of creating this portfolio website, I set up a new repository and prepared it for development using best practices (e.g. linters). I then build the mobile version of the website using the template I choosed from figma.
 I then set up the contact form and made sure that I guide the users' experience in a way that helps them fill in the form without frustration. 
 Later I applied media queries to make sure that my website displays correctly on mobile, ipad, ipad pro and desktop screens.
+I then deployed the website using GitHub Pages and checked the online version of the portfolio and made sure that the page works properly.
 
 
 
@@ -17,9 +18,9 @@ Later I applied media queries to make sure that my website displays correctly on
 - Css
 - npm
 
-## Live Demo
+## Live Page
 
-[Live Demo Link](http://127.0.0.1:5501/)
+[Live Page Link](https://kingstalux.github.io/Portfolio/)
 
 ## Getting Started
 
