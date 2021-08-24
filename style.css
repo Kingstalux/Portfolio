@@ -907,7 +907,6 @@ body {
 }
 
 @media (min-width: 1500px) {
-
   .works3 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -926,7 +925,9 @@ body {
     margin: 50px 143.5px 50px 141.4px;
   }
 
-  .projects_art, .projects_data, .projects_web {
+  .projects_art,
+  .projects_data,
+  .projects_web {
     width: 369px;
     height: 435px;
   }
@@ -966,7 +967,6 @@ body {
     width: 448px;
     height: 140px;
   }
-
 }
 
 .logo {
