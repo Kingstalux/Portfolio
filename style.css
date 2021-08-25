@@ -754,7 +754,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .works_line h1 {
+  .works_line h2 {
     margin: 125px 0 20px 140px;
     margin-left: 150px;
   }
@@ -820,6 +820,7 @@ body {
     background-size: contain;
     color: transparent;
     cursor: pointer;
+    border: 1px solid black;
   }
 
   .projects_art:hover .sites1 ul li {
@@ -829,7 +830,7 @@ body {
   .button2 {
     display: none;
     width: 310px;
-    margin-left: 1px;
+    margin-left: 0;
   }
 
   .projects_art:hover .button2 {
@@ -845,6 +846,7 @@ body {
     background-size: contain;
     color: transparent;
     cursor: pointer;
+    border: 1px solid black;
   }
 
   .projects_data:hover .sites1 ul li {
@@ -864,6 +866,7 @@ body {
     background-size: contain;
     color: transparent;
     cursor: pointer;
+    border: 1px solid black;
   }
 
   .projects_web:hover .sites1 ul li {

@@ -7,6 +7,7 @@
 I then set up the contact form and made sure that I guide the users' experience in a way that helps them fill in the form without frustration. 
 Later I applied media queries to make sure that my website displays correctly on mobile, ipad, ipad pro and desktop screens.
 I then deployed the website using GitHub Pages and checked the online version of the portfolio and made sure that the page works properly.
+Me and my partner then evaluated the website against accessibility best practices and implemented any necessary changes to ensure that the website is accessible.
 
 
 
@@ -51,7 +52,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **King Josephat Chewa**
 
-- GitHub: [@Kingstalux](https://github.com/Kingjosh007)
+- GitHub: [@KJC](https://github.com/Kingjosh007)
+
+👤 **King Josephat Chewa**
+
+- GitHub: [@Mucyosoda](https://github.com/Mucyosoda)
 
 
 ## 🤝 Contributing
