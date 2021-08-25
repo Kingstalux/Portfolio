@@ -78,7 +78,7 @@ body {
   width: 375px;
 }
 
-.works h1 {
+.works h2 {
   font-size: 40px;
   width: 327px;
   height: 83px;
@@ -184,7 +184,7 @@ body {
   margin-bottom: 24px;
 }
 
-.projects h2 {
+.projects h3 {
   font-size: 32px;
   color: white;
   margin: 84px 40px 0 40px;
@@ -242,7 +242,7 @@ body {
   background-position: bottom right;
 }
 
-.about h1 {
+.about h2 {
   margin: 120px 24px 12px 24px;
   font-size: 72px;
   color: rgba(255, 107, 0, 1);
@@ -285,7 +285,7 @@ body {
   width: 340px;
 }
 
-.info div h2 {
+.info div h3 {
   color: white;
   font-size: 32px;
   font-weight: 700;
@@ -510,7 +510,7 @@ body {
     margin: 80px 140px 0 0;
   }
 
-  .works_line h1 {
+  .works_line h2 {
     margin-left: 50px;
   }
 
@@ -564,7 +564,7 @@ body {
     color: white;
   }
 
-  .projects_art h2 {
+  .projects_art h3 {
     font-size: 32px;
     margin: 137px 40px 0 10px;
     font-family: 'Crete Round', serif;
@@ -633,7 +633,7 @@ body {
     color: white;
   }
 
-  .projects_web h2 {
+  .projects_web h3 {
     font-size: 32px;
     margin: 170px 40px 0 10px;
     font-family: 'Crete Round', serif;
@@ -656,7 +656,7 @@ body {
     color: white;
   }
 
-  .projects_data h2 {
+  .projects_data h3 {
     font-size: 32px;
     margin: 135px 40px 0 10px;
     font-family: 'Crete Round', serif;
@@ -669,7 +669,7 @@ body {
     background-position: right;
   }
 
-  .about h1 {
+  .about h2 {
     font-size: 72px;
     margin: 120px 24px 12px 140px;
   }
@@ -705,7 +705,7 @@ body {
     text-align: left;
   }
 
-  .info div h2 {
+  .info div h3 {
     font-size: 32px;
   }
 
@@ -776,7 +776,7 @@ body {
     width: 380px;
   }
 
-  .store h2 {
+  .store h3 {
     margin-bottom: 30px;
   }
 
@@ -799,15 +799,15 @@ body {
     height: 370px;
   }
 
-  .projects_art h2 {
+  .projects_art h3 {
     margin: 102px 40px 0 10px;
   }
 
-  .projects_data h2 {
+  .projects_data h3 {
     margin: 100px 40px 0 10px;
   }
 
-  .projects_web h2 {
+  .projects_web h3 {
     margin: 140px 40px 0 10px;
   }
 
@@ -891,7 +891,7 @@ body {
     width: 684px;
   }
 
-  .about h1 {
+  .about h2 {
     margin-top: 200px;
   }
 
@@ -932,15 +932,15 @@ body {
     height: 435px;
   }
 
-  .projects_art h2 {
+  .projects_art h3 {
     margin: 194px 40px 0 15px;
   }
 
-  .projects_data h2 {
+  .projects_data h3 {
     margin: 192px 40px 0 15px;
   }
 
-  .projects_web h2 {
+  .projects_web h3 {
     margin: 230px 40px 0 15px;
   }
 
