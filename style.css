@@ -57,7 +57,8 @@ body {
   display: block;
 }
 
-.cancel:hover, .union:hover {
+.cancel:hover,
+.union:hover {
   cursor: pointer;
 }
 
