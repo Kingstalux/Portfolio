@@ -7,6 +7,10 @@
 I then set up the contact form and made sure that I guide the users' experience in a way that helps them fill in the form without frustration. 
 Later I applied media queries to make sure that my website displays correctly on mobile, ipad, ipad pro and desktop screens.
 I then deployed the website using GitHub Pages and checked the online version of the portfolio and made sure that the page works properly.
+Then me and my  partner implemented the mobile menu using recently acquired JavaScript knowledge making sure of the following:
+That when the hamburger icon is clicked the menu appears.
+When the x-icon is clicked the menu disappears.
+When any of the links on the menu are clicked, the menu disappears and you are taken to the corresponding page.
 
 
 
@@ -17,6 +21,7 @@ I then deployed the website using GitHub Pages and checked the online version of
 - Html
 - Css
 - npm
+-Javascript
 
 ## Live Page
 
@@ -51,7 +56,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **King Josephat Chewa**
 
-- GitHub: [@Kingstalux](https://github.com/Kingjosh007)
+- GitHub: [@Kingjosh007](https://github.com/Kingjosh007)
+
+
+👤 **King Josephat Chewa**
+
+- GitHub: [@1GORDON](https://github.com/1GORDON)
+
 
 
 ## 🤝 Contributing
