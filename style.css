@@ -43,6 +43,47 @@ body {
   display: none;
 }
 
+.menu {
+  /* display: none; */
+  position: absolute;
+  background-color: rgba(60, 58, 57, 1);
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+}
+
+.menu img {
+  float: right;
+  margin-top: 24px;
+  margin-right: 30px;
+  width: 12px;
+  height: 12px;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 80px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  margin: 34px 108px 25px 40px;
+  height: 24px;
+  line-height: 44px;
+}
+
+.menu hr {
+  margin-right: 24px;
+  margin-bottom: 50px;
+}
+
+
+
 .container h1 {
   color: rgba(255, 107, 0, 1);
   margin: 120px 24px 12px 24px;
