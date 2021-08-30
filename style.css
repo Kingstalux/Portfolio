@@ -57,6 +57,10 @@ body {
   display: block;
 }
 
+.cancel:hover, .union:hover {
+  cursor: pointer;
+}
+
 .menu img {
   float: right;
   margin-top: 24px;
@@ -957,6 +961,7 @@ body {
 
   .works3 img {
     margin-right: 141.5px;
+    margin-left: 180px;
     width: 684px;
   }
 
@@ -990,16 +995,19 @@ body {
   .projects_art:hover {
     width: 369px;
     height: 435px;
+    border: 1px solid black;
   }
 
   .projects_data:hover {
     width: 369px;
     height: 435px;
+    border: 1px solid black;
   }
 
   .projects_web:hover {
     width: 369px;
     height: 435px;
+    border: 1px solid black;
   }
 
   .button2 {
