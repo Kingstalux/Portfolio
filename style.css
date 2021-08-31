@@ -14,7 +14,7 @@ body {
 .sect {
   width: 375px;
   background-color: rgba(28, 26, 25, 1);
-  background-image: url('images/Group.png');
+  background-image: url("images/Group.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -43,11 +43,59 @@ body {
   display: none;
 }
 
+.menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(60, 58, 57, 1);
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+}
+
+.show {
+  display: block;
+}
+
+.cancel:hover,
+.union:hover {
+  cursor: pointer;
+}
+
+.menu img {
+  float: right;
+  margin-top: 24px;
+  margin-right: 30px;
+  width: 12px;
+  height: 12px;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 80px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin: 34px 108px 25px 40px;
+  height: 24px;
+  line-height: 44px;
+}
+
+.menu hr {
+  margin-right: 24px;
+  margin-bottom: 30px;
+}
+
 .container h1 {
   color: rgba(255, 107, 0, 1);
   margin: 120px 24px 12px 24px;
   font-size: 56px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 .container h2 {
@@ -55,14 +103,14 @@ body {
   margin: 0 24px 0 24px;
   padding: 0;
   font-size: 24px;
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
 }
 
 .container p {
   font-size: 16px;
   color: white;
   margin: 12px 24px 0 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .icons {
@@ -84,7 +132,7 @@ body {
   height: 83px;
   padding: 10px;
   margin: 120px 24px 20px 24px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 .works hr {
@@ -107,17 +155,17 @@ body {
   color: white;
   margin: 12px 24px 12px 24px;
   font-size: 16px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
 }
 
 .projects p {
   margin: 12px 40px 0 40px;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .contact p {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 32px;
@@ -178,7 +226,7 @@ body {
 
 .projects {
   width: 375px;
-  background-image: url('images/image2.png');
+  background-image: url("images/image2.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 24px;
@@ -188,7 +236,7 @@ body {
   font-size: 32px;
   color: white;
   margin: 84px 40px 0 40px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 .sites1 ul {
@@ -237,7 +285,7 @@ body {
 .about {
   width: 375px;
   background-color: rgba(28, 26, 25, 1);
-  background-image: url('images/image3.png');
+  background-image: url("images/image3.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -246,7 +294,7 @@ body {
   margin: 120px 24px 12px 24px;
   font-size: 72px;
   color: rgba(255, 107, 0, 1);
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 .button3 {
@@ -327,7 +375,7 @@ body {
 }
 
 .form input {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   width: 295px;
@@ -343,7 +391,7 @@ body {
   background-color: #fbf8f7;
   width: 327px;
   height: 114px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -474,7 +522,7 @@ body {
   .main {
     display: grid;
     grid-template-columns: 10% 40%;
-    background-image: url('images/logo1.png');
+    background-image: url("images/logo1.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
@@ -530,7 +578,7 @@ body {
   .heed {
     font-size: 40px;
     color: rgba(9, 30, 66, 1);
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-family: "Crete Round", Arial, Helvetica, sans-serif;
     font-weight: 400;
   }
 
@@ -542,7 +590,7 @@ body {
   }
 
   .store p {
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
   }
 
   .project_desktop {
@@ -555,7 +603,7 @@ body {
   .projects_art {
     width: 310px;
     height: 435px;
-    background-image: url('images/image2.png');
+    background-image: url("images/image2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -567,7 +615,7 @@ body {
   .projects_art h3 {
     font-size: 32px;
     margin: 137px 40px 0 10px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
   }
 
   .sites1 ul {
@@ -613,18 +661,18 @@ body {
 
   .projects_art p {
     margin: 12px 40px 0 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .projects_web p {
     margin: 12px 40px 0 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .projects_web {
     width: 310px;
     height: 435px;
-    background-image: url('images/Img4.png');
+    background-image: url("images/Img4.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -636,18 +684,18 @@ body {
   .projects_web h3 {
     font-size: 32px;
     margin: 170px 40px 0 10px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
   }
 
   .projects_data p {
     margin: 12px 40px 0 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .projects_data {
     width: 310px;
     height: 435px;
-    background-image: url('images/Img3.png');
+    background-image: url("images/Img3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -659,13 +707,13 @@ body {
   .projects_data h3 {
     font-size: 32px;
     margin: 135px 40px 0 10px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
   }
 
   .about {
     display: grid;
     grid-template-columns: 50%;
-    background-image: url('images/Img5.png');
+    background-image: url("images/Img5.png");
     background-position: right;
   }
 
@@ -727,7 +775,7 @@ body {
     color: rgba(23, 43, 77, 1);
     font-size: 27px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin-top: 0;
     margin-right: 24px;
     margin-left: 50px;
@@ -814,7 +862,7 @@ body {
   .projects_art:hover {
     width: 310px;
     height: 370px;
-    background-image: url('images/Img2.png');
+    background-image: url("images/Img2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -840,7 +888,7 @@ body {
   .projects_data:hover {
     width: 310px;
     height: 370px;
-    background-image: url('images/Img2b.png');
+    background-image: url("images/Img2b.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -860,7 +908,7 @@ body {
   .projects_web:hover {
     width: 310px;
     height: 370px;
-    background-image: url('images/Img2c.png');
+    background-image: url("images/Img2c.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -917,6 +965,7 @@ body {
 
   .works3 img {
     margin-right: 141.5px;
+    margin-left: 180px;
     width: 684px;
   }
 
@@ -950,16 +999,19 @@ body {
   .projects_art:hover {
     width: 369px;
     height: 435px;
+    border: 1px solid black;
   }
 
   .projects_data:hover {
     width: 369px;
     height: 435px;
+    border: 1px solid black;
   }
 
   .projects_web:hover {
     width: 369px;
     height: 435px;
+    border: 1px solid black;
   }
 
   .button2 {

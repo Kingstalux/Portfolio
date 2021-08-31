@@ -24,19 +24,35 @@
 <body>
    <section class="body">
     <section class="sect">
+
+      
+      <div id="drop-menu" class="menu">
+        <img onclick="myFunction1()" src="images/Iconx.png" alt="cancel" class="cancel">
+        <ul>
+          <li><a href="#Portfolio" onclick="myFunction1()">Portfolio</a><br><hr></li>
+          <li><a href="#About" onclick="myFunction1()">About</a><br><hr></li>
+          <li><a href="#Contacts" onclick="myFunction1()">Contacts</a><br><hr></li>
+        </ul>
+      </div>
+
       <header class="bar">
         <div class="logo"><a href="#">King</a></div>
 
         <div class="links">
           <ul>
-            <li><a href="#">Portfolio</a></li>
+<!--             <li><a href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#"><img src="images/envelop.png" alt="message"></a></li>
+            <li><a href="#"><img src="images/envelop.png" alt="message"></a></li> -->
+
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contacts">Contact</a></li>
+            <li><a href="#"><img src="images/envelop.png" alt="envelope"></a></li>
           </ul>
         </div>
 
-        <nav class="union"><img src="images/Union.png" alt="union"></nav>
+        <nav class="union"><img onclick="myFunction()" src="images/Union.png" alt="union"></nav>
       </header>
 
       <section class="main">
@@ -55,7 +71,7 @@
       </section>
   </section>
 
-  <section class="works">
+  <section id="Portfolio" class="works">
     <div class="works_line">
       <div><h2>My Recent Works</h2></div>
     <hr>
@@ -254,7 +270,7 @@
     </section>
   </section>
 
-  <section class="about">
+  <section id="About" class="about">
    <div>
     <h2>About me</h2>
     <p>
@@ -301,7 +317,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section id="Contacts" class="contact">
     <p>
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </p>
@@ -326,5 +342,6 @@
     </div>
   </footer>
    </section>
+   <script src="script.js"></script>
 </body>
 </html>

@@ -8,6 +8,10 @@ I then set up the contact form and made sure that I guide the users' experience 
 Later I applied media queries to make sure that my website displays correctly on mobile, ipad, ipad pro and desktop screens.
 I then deployed the website using GitHub Pages and checked the online version of the portfolio and made sure that the page works properly.
 Me and my partner then evaluated the website against accessibility best practices and implemented any necessary changes to ensure that the website is accessible.
+Then me and my  partner implemented the mobile menu using recently acquired JavaScript knowledge making sure of the following:
+That when the hamburger icon is clicked the menu appears.
+When the x-icon is clicked the menu disappears.
+When any of the links on the menu are clicked, the menu disappears and you are taken to the corresponding page.
 
 
 
@@ -18,6 +22,7 @@ Me and my partner then evaluated the website against accessibility best practice
 - Html
 - Css
 - npm
+-Javascript
 
 ## Live Page
 
@@ -49,14 +54,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@NguKingsley](https://twitter.com/NguKingsley)
 - LinkedIn: [Ngu Kingsely](https://www.linkedin.com/in/ngu-kingsely-junior-cho-974b60136/)
 
-
-👤 **King Josephat Chewa**
-
-- GitHub: [@KJC](https://github.com/Kingjosh007)
-
-👤 **King Josephat Chewa**
-
-- GitHub: [@Mucyosoda](https://github.com/Mucyosoda)
 
 
 ## 🤝 Contributing
