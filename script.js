@@ -132,6 +132,31 @@ button10.onclick = function() {myFunction4()};
 div23.appendChild(button10)
 
 
+//rendering mobile projects
+function renderProject (p) {
+  const projectHtml = `<div class='projects'>
+   <h3>${p.name}</h3>
+   <p>${p.description}</p>
+   <div class="sites1">
+   <ul>
+   <li><a href="#">${p.tech[0]}</a><li>
+   <li><a href="#">${p.tech[1]}</a><li>
+   <li><a href="#">${p.tech[2]}</a><li>
+   </ul>
+  <div></div>
+   <button class='button2' type='button' onclick="myFunction4()">See Project</button>
+</div>
+`;
+return projectHtml;
+ }
+ const pro = document.getElementById("pro")
+ pro.className = "project_container"
+
+ mobile_container.forEach(p => {
+  pro.insertAdjacentHTML("afterend", renderProject(p))
+   
+ });
+
 
 
 
