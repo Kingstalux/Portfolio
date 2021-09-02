@@ -314,6 +314,126 @@ button3.innerText = p3.button
 button3.onclick = function() {myFunction2()};
 div5.appendChild(button3)
 
+//third card
+const div7 = document.createElement("div")
+div7.className = "projects_web"
+
+const h34 = document.createElement("h3")
+h34.innerText = p4.title
+div7.appendChild(h34)
+project_desktop.appendChild(div7)
+
+const para4 = document.createElement("p")
+para4.innerText = p4.description
+div7.appendChild(para4)
+
+const div8 = document.createElement("div")
+div8.className = "sites12"
+const tech4 = document.createElement("ul")
+for (let i of p4.tech) {
+    let li = document.createElement("li");
+    li.innerText = i;
+    tech4.appendChild(li);
+}
+div8.appendChild(tech4)
+div7.appendChild(div8)
+const button4 = document.createElement("button")
+button4.type = "button"
+button4.className = "button2"
+button4.innerText = p4.button
+button4.onclick = function() {myFunction2()};
+div7.appendChild(button4)
+
+//fourth card
+const div9 = document.createElement("div")
+div9.className = "projects_art"
+
+const h35 = document.createElement("h3")
+h35.innerText = p2.title
+div9.appendChild(h35)
+project_desktop.appendChild(div9)
+
+const para5 = document.createElement("p")
+para5.innerText = p2.description
+div9.appendChild(para5)
+
+const div10 = document.createElement("div")
+div10.className = "sites12"
+const tech5 = document.createElement("ul")
+for (let i of p2.tech) {
+    let li = document.createElement("li");
+    li.innerText = i;
+    tech5.appendChild(li);
+}
+div10.appendChild(tech5)
+div9.appendChild(div10)
+const button5 = document.createElement("button")
+button5.type = "button"
+button5.className = "button2"
+button5.innerText = p2.button
+button5.onclick = function() {myFunction2()};
+div9.appendChild(button5)
+
+//fifth card
+const div11 = document.createElement("div")
+div11.className = "projects_data"
+
+const h36 = document.createElement("h3")
+h36.innerText = p3.title
+div11.appendChild(h36)
+project_desktop.appendChild(div11)
+
+const para6 = document.createElement("p")
+para6.innerText = p3.description
+div11.appendChild(para6)
+
+const div12 = document.createElement("div")
+div12.className = "sites12"
+const tech6 = document.createElement("ul")
+for (let i of p3.tech) {
+    let li = document.createElement("li");
+    li.innerText = i;
+    tech6.appendChild(li);
+}
+div12.appendChild(tech6)
+div11.appendChild(div12)
+const button6 = document.createElement("button")
+button6.type = "button"
+button6.className = "button2"
+button6.innerText = p3.button
+button6.onclick = function() {myFunction2()};
+div11.appendChild(button6)
+
+//sisth card
+const div13 = document.createElement("div")
+div13.className = "projects_web"
+
+const h37 = document.createElement("h3")
+h37.innerText = p4.title
+div13.appendChild(h37)
+project_desktop.appendChild(div13)
+
+const para7 = document.createElement("p")
+para7.innerText = p4.description
+div13.appendChild(para7)
+
+const div14 = document.createElement("div")
+div14.className = "sites12"
+const tech7 = document.createElement("ul")
+for (let i of p4.tech) {
+    let li = document.createElement("li");
+    li.innerText = i;
+    tech7.appendChild(li);
+}
+div14.appendChild(tech7)
+div13.appendChild(div14)
+const button7 = document.createElement("button")
+button7.type = "button"
+button7.className = "button2"
+button7.innerText = p4.button
+button7.onclick = function() {myFunction2()};
+div13.appendChild(button7)
+
 
 
 
