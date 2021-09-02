@@ -97,6 +97,41 @@ const projects_container = [
   
 ]
 
+//first mobile project
+const div21 = document.getElementById("ret")
+const img6 = document.createElement("img")
+img6.src = p1["image mobile"]
+img6.alt = "alt"
+div21.appendChild(img6)
+
+const div22 = document.getElementById("works_mobile")
+const h38 = document.createElement("h3")
+h38.className = "heed"
+h38.innerText = p1.title
+div22.appendChild(h38)
+const para9 = document.createElement("p")
+para9.innerText = p1.description
+div22.appendChild(para9)
+
+const div23 = document.getElementById("works2")
+const div24 = document.createElement("div")
+div24.className = "sites"
+const tech9 = document.createElement("ul")
+for (let i of p1.tech) {
+  let li = document.createElement("li");
+  li.innerText = i;
+  tech9.appendChild(li)
+}
+div24.appendChild(tech9)
+div23.appendChild(div24)
+const button10 = document.createElement("button")
+button10.type = "button"
+button10.className = "button1"
+button10.innerText = p1.button
+button10.onclick = function() {myFunction4()};
+div23.appendChild(button10)
+
+
 
 
 
