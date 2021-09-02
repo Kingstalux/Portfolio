@@ -284,6 +284,36 @@ button2.innerText = p2.button
 button2.onclick = function() {myFunction2()};
 div3.appendChild(button2)
 
+//second card
+const div5 = document.createElement("div")
+div5.className = "projects_data"
+
+const h33 = document.createElement("h3")
+h33.innerText = p3.title
+div5.appendChild(h33)
+project_desktop.appendChild(div5)
+
+const para3 = document.createElement("p")
+para3.innerText = p3.description
+div5.appendChild(para3)
+
+const div6 = document.createElement("div")
+div6.className = "sites12"
+const tech3 = document.createElement("ul")
+for (let i of p3.tech) {
+    let li = document.createElement("li");
+    li.innerText = i;
+    tech3.appendChild(li);
+}
+div6.appendChild(tech3)
+div5.appendChild(div6)
+const button3 = document.createElement("button")
+button3.type = "button"
+button3.className = "button2"
+button3.innerText = p3.button
+button3.onclick = function() {myFunction2()};
+div5.appendChild(button3)
+
 
 
 
