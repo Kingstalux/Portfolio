@@ -157,6 +157,65 @@ return projectHtml;
    
  });
 
+ //mobile popup window
+const popup_mobile = document.getElementById("popup_mobile")
+const div25 = document.createElement("div")
+div25.className = "mult1"
+const div26 = document.createElement("div")
+div26.className = "head1"
+const h2 = document.createElement("h2")
+h2.innerText = "Multi Post Stories"
+div26.appendChild(h2)
+div25.appendChild(div26)
+popup_mobile.appendChild(div25)
+
+const img8 = document.createElement("img")
+img8.src = "images/iconx.png"
+img8.alt = "cancel icon"
+img8.onclick = function() {myFunction5()};
+div26.appendChild(img8)
+const list = document.createElement("ul")
+for (let i of p5.tech) {
+  let li = document.createElement("li");
+  li.innerText = i;
+  list.appendChild(li)
+}
+div25.appendChild(list)
+const img9 = document.createElement("img")
+img9.className = "snap1"
+img9.src = "images/Snapshoot1.png"
+img9.alt = "snapshoot"
+div25.appendChild(img9)
+const para10 = document.createElement("p")
+para10.innerText = p5.description
+div25.appendChild(para10)
+
+const div27 = document.createElement("div")
+div27.className = "but1"
+const img11 = document.createElement("img")
+img11.src = "images/power.png"
+img11.alt = "power"
+img11.className = "cat"
+const button11 = document.createElement("button")
+button11.type = "button"
+button11.className = "button5"
+button11.innerText = p5["live button"]
+button11.appendChild(img11)
+div27.appendChild(button11)
+div25.appendChild(div27)
+
+const img10 = document.createElement("img")
+img10.src = "images/catc.png"
+img10.className = "cat"
+const button12 = document.createElement("button")
+button12.type = "button"
+button12.className = "button6"
+button12.innerText = p5["source button"]
+button12.appendChild(img10)
+div27.appendChild(button12)
+
+
+
 
 
 
