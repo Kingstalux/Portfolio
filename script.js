@@ -434,6 +434,74 @@ button7.innerText = p4.button
 button7.onclick = function() {myFunction2()};
 div13.appendChild(button7)
 
+// designing popup window
+const popup_desktop = document.getElementById("popup_desktop")
+popup_desktop.className = "final"
+const div15 = document.createElement("div")
+div15.className = "mult"
+const div16 = document.createElement("div")
+div16.className = "head"
+const h1 = document.createElement("h1")
+h1.innerText = p5.title
+div16.appendChild(h1)
+div15.appendChild(div16)
+popup_desktop.appendChild(div15)
+
+const img2 = document.createElement("img")
+img2.src = "images/Iconx.png"
+img2.src = "cancel"
+img2.onclick = function() {myFunction3()};
+div16.appendChild(img2)
+
+const tech8 = document.createElement("ul")
+for (let i of p5.tech) {
+    let li = document.createElement("li");
+    li.innerText = i;
+    tech8.appendChild(li);
+}
+div15.appendChild(tech8)
+
+const div17 = document.createElement("div")
+div17.className = "grid"
+const img3 = document.createElement("img")
+img3.src = p5["image desktop"]
+img3.className = "snap"
+img3.alt = "alt"
+div17.appendChild(img3)
+div15.appendChild(div17)
+
+const div18 = document.createElement("div")
+div18.className = "live"
+const para8 = document.createElement("p")
+para8.innerText = p5.description
+div18.appendChild(para8)
+div17.appendChild(div18)
+
+const div19 = document.createElement("div")
+div19.className = "but"
+const img5 = document.createElement("img")
+img5.src = "images/power.png"
+img5.alt = "power"
+img5.className = "cat"
+const button8 = document.createElement("button")
+button8.type = "button"
+button8.className = "button5"
+button8.innerText = p5["live button"]
+button8.appendChild(img5)
+div19.appendChild(button8)
+div18.appendChild(div19)
+
+const img4 = document.createElement("img")
+img4.src = "images/catc.png"
+img4.alt = "github"
+img4.className = "cat"
+const button9 = document.createElement("button")
+button9.type = "button"
+button9.className = "button6"
+button9.innerText = p5["source button"]
+button9.appendChild(img4)
+div19.appendChild(button9)
+
 
 
 
