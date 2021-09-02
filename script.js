@@ -216,6 +216,42 @@ div27.appendChild(button12)
 
 
 
+// fist desktop project
+const works3 = document.getElementById("works3")
+works3.className = "works3"
+const img1 = document.createElement("img")
+img1.src = p1["image desktop"]
+img1.alt = "alt"
+works3.appendChild(img1)
+
+const div1 = document.createElement("div")
+div1.className = "store"
+const h31 = document.createElement("h3")
+h31.className = "heed"
+h31.innerText = p1.title
+div1.appendChild(h31)
+works3.appendChild(div1)
+const para1 = document.createElement("p")
+para1.innerText = p1.description
+div1.appendChild(para1)
+
+const div2 = document.createElement("div")
+div2.className = "site1"
+const tech1 = document.createElement("ul")
+for (let i of p1.tech) {
+  let li = document.createElement("li");
+  li.innerText = i;
+  tech1.appendChild(li)
+}
+div2.appendChild(tech1)
+div1.appendChild(div2)
+const button1 = document.createElement("button")
+button1.type = "button"
+button1.className = "button1"
+button1.innerText = p1.button
+button1.onclick = function() {myFunction2()};
+div1.appendChild(button1)
+
 
 
 
