@@ -354,3 +354,32 @@ button9.className = 'button7';
 button9.innerText = p5['source button'];
 button9.appendChild(img4);
 div19.appendChild(button9);
+
+
+//validating contact form
+const upperCaseLetters = (str) => /[A-Z]/.test(str) && !/[a-z]/.test(str);
+const form = document.getElementsByTagName('form')[0];
+const email = form.elements['email'];
+const input = email.value
+
+// form.addEventListener('submit', function (event) {
+//   event.preventDefault();
+//   if(upperCaseLetters(input)) {
+//     const msg = input.parentNode.querySelector("small");
+// 	  msg.innerText = "Enter lower case letters";
+//     msg.style.visibility = "visible";
+//   } else {
+//     msg.style.visibility = "hidden";
+//   }
+//   form.submit()
+// });
+
+const errorElement = document.getElementById("error");
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()){
+    e.preventDefault();
+    errorElement.style.display = 'block';
+    errorElement.textContent = 'Invalid email, Please use lowercase';
+  }
+});
