@@ -13,28 +13,28 @@ const myFunction1 = () => {
 const myFunction2 = () => {
   document.getElementById('popup_desktop').classList.add('view');
   window.scrollTo(0, 0);
-  document.body.classList.add('overflow');
+  // document.body.classList.add('overflow');
   document.getElementById('sect').classList.add('blur');
 };
 
 const myFunction3 = () => {
   document.getElementById('popup_desktop').classList.remove('view');
   window.scrollTo(0, 1000);
-  document.body.classList.remove('overflow');
+  // document.body.classList.remove('overflow');
   document.getElementById('sect').classList.remove('blur');
 };
 
 const myFunction4 = () => {
   document.getElementById('popup_mobile').classList.add('see');
   window.scrollTo(0, 0);
-  document.body.classList.add('overflow');
+  // document.body.classList.add('overflow');
   document.getElementById('sect').classList.add('blur');
 };
 
 const myFunction5 = () => {
   document.getElementById('popup_mobile').classList.remove('see');
   window.scrollTo(0, 1000);
-  document.body.classList.remove('overflow');
+  // document.body.classList.remove('overflow');
   document.getElementById('sect').classList.remove('blur');
 };
 
@@ -52,13 +52,14 @@ const projects_container = [
   },
 
   {
-    title: 'Professional Art Printing Data',
+    title: 'Website Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     tech: ['html', 'bootstrap', 'Ruby'],
     button: 'See Project',
     'link to live version': '#3',
     'link to source': '#4',
-    class: "projects_art"
+    class: "projects_web",
+    image: "images/Img2.png"
   },
 
   {
@@ -68,17 +69,19 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#5',
     'link to source': '#6',
-    class: "projects_data"
+    class: "projects_data",
+    images: "images/Img2b.png"
   },
 
   {
-    title: 'Website Portfolio',
+    title: 'Professional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     tech: ['html', 'bootstrap', 'Ruby'],
     button: 'See Project',
     'link to live version': '#7',
     'link to source': '#8',
-    class: "projects_web"
+    class: "projects_art",
+    images: "images/Img2c.png"
   },
 
   {
@@ -88,7 +91,9 @@ const projects_container = [
     'live button': 'See live',
     'source button': 'See Source',
     'image desktop': 'images/Snapshoot.png',
-    class: "hide"
+    class: "hide",
+    'link to live version': '#9',
+    'link to source': '#10'
   },
 
 ];
@@ -178,6 +183,7 @@ img8.alt = 'cancel icon';
 img8.onclick = function () { myFunction5(); };
 div26.appendChild(img8);
 const list = document.createElement('ul');
+list.className = "rub";
 for (const i of p5.tech) {
   const li = document.createElement('li');
   li.innerText = i;
