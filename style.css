@@ -5,6 +5,12 @@ body {
   padding: 0;
 }
 
+.see,
+.view,
+.show {
+  display: block;
+}
+
 .body {
   margin: 0;
   display: grid;
