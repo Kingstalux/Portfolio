@@ -11,6 +11,10 @@ body {
   display: block;
 }
 
+.spanhide {
+  display: none;
+}
+
 .body {
   margin: 0;
   display: grid;
@@ -1122,6 +1126,10 @@ body {
   .but {
     display: grid;
     grid-template-columns: 40% 40% 20%;
+  }
+
+  .hide {
+    display: none;
   }
 
   .cat {

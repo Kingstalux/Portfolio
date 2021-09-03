@@ -38,43 +38,6 @@ const myFunction5 = () => {
   document.getElementById('sect').classList.remove('blur');
 };
 
-const mobile_container = [
-  {
-    name: 'Professional Art Printing Data',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    button: 'See Project',
-  },
-
-  {
-    name: 'Professional Art Printing Data',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    button: 'See Project',
-  },
-
-  {
-    name: 'Professional Art Printing Data',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    button: 'See Project',
-  },
-
-  {
-    name: 'Professional Art Printing Data',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    button: 'See Project',
-  },
-
-  {
-    name: 'Professional Art Printing Data',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    button: 'See Project',
-  },
-];
-
 const projects_container = [
   {
     title: 'Multi-Post Stories',
@@ -85,6 +48,7 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#1',
     'link to source': '#2',
+    class: "hide"
   },
 
   {
@@ -94,6 +58,7 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#3',
     'link to source': '#4',
+    class: "projects_art"
   },
 
   {
@@ -103,6 +68,7 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#5',
     'link to source': '#6',
+    class: "projects_data"
   },
 
   {
@@ -112,6 +78,7 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#7',
     'link to source': '#8',
+    class: "projects_web"
   },
 
   {
@@ -121,6 +88,7 @@ const projects_container = [
     'live button': 'See live',
     'source button': 'See Source',
     'image desktop': 'images/Snapshoot.png',
+    class: "hide"
   },
 
 ];
@@ -168,7 +136,7 @@ div23.appendChild(button10);
 // rendering mobile projects
 function renderProject(p) {
   const projectHtml = `<div class='projects'>
-   <h3>${p.name}</h3>
+   <h3>${p.title}</h3>
    <p>${p.description}</p>
    <div class="sites1">
    <ul>
@@ -185,9 +153,12 @@ function renderProject(p) {
 const pro = document.getElementById('pro');
 pro.className = 'project_container';
 
-mobile_container.forEach((p) => {
-  pro.insertAdjacentHTML('afterend', renderProject(p));
-});
+for (let j = 0; j < 2; j++) {
+  for (let i = 3; i > 0; i--) {
+    p = projects_container[i];
+    pro.insertAdjacentHTML('afterend', renderProject(p));
+  }  
+}
 
 // mobile popup window
 const popup_mobile = document.getElementById('popup_mobile');
@@ -282,187 +253,33 @@ button1.innerText = p1.button;
 button1.onclick = function () { myFunction2(); };
 div1.appendChild(button1);
 
-// first card
+// rendering desktop projects
+function desktopProject(p) {
+  const projectDesktop = `
+  <div class=${p.class}>
+  <h3>${p.title}</h3>
+  <p>${p.description}</p>
+  <div class="sites12">
+    <ul>
+      <li>${p.tech[0]}</li>
+      <li>${p.tech[1]}</li>
+      <li>${p.tech[2]}</li>
+    </ul>
+  </div>
+  <button onclick="myFunction2()" type="button" class="button2">${p.button}</button>
+</div>
+  `;
+  return projectDesktop;
+}
 const project_desktop = document.getElementById('project_desktop');
-project_desktop.className = 'project_desktop';
-const div3 = document.createElement('div');
-div3.className = 'projects_art';
 
-const h32 = document.createElement('h3');
-h32.innerText = p2.title;
-div3.appendChild(h32);
-project_desktop.appendChild(div3);
 
-const para2 = document.createElement('p');
-para2.innerText = p2.description;
-div3.appendChild(para2);
-
-const div4 = document.createElement('div');
-div4.className = 'sites12';
-const tech2 = document.createElement('ul');
-for (const i of p2.tech) {
-  const li = document.createElement('li');
-  li.innerText = i;
-  tech2.appendChild(li);
+for (let j = 0; j < 2; j++) {
+  for (let i = 1; i < 4; i++) {
+    p = projects_container[i];
+    project_desktop.insertAdjacentHTML('afterend', desktopProject(p));
+  }
 }
-div4.appendChild(tech2);
-div3.appendChild(div4);
-const button2 = document.createElement('button');
-button2.type = 'button';
-button2.className = 'button2';
-button2.innerText = p2.button;
-button2.onclick = function () { myFunction2(); };
-div3.appendChild(button2);
-
-// second card
-const div5 = document.createElement('div');
-div5.className = 'projects_data';
-
-const h33 = document.createElement('h3');
-h33.innerText = p3.title;
-div5.appendChild(h33);
-project_desktop.appendChild(div5);
-
-const para3 = document.createElement('p');
-para3.innerText = p3.description;
-div5.appendChild(para3);
-
-const div6 = document.createElement('div');
-div6.className = 'sites12';
-const tech3 = document.createElement('ul');
-for (const i of p3.tech) {
-  const li = document.createElement('li');
-  li.innerText = i;
-  tech3.appendChild(li);
-}
-div6.appendChild(tech3);
-div5.appendChild(div6);
-const button3 = document.createElement('button');
-button3.type = 'button';
-button3.className = 'button2';
-button3.innerText = p3.button;
-button3.onclick = function () { myFunction2(); };
-div5.appendChild(button3);
-
-// third card
-const div7 = document.createElement('div');
-div7.className = 'projects_web';
-
-const h34 = document.createElement('h3');
-h34.innerText = p4.title;
-div7.appendChild(h34);
-project_desktop.appendChild(div7);
-
-const para4 = document.createElement('p');
-para4.innerText = p4.description;
-div7.appendChild(para4);
-
-const div8 = document.createElement('div');
-div8.className = 'sites12';
-const tech4 = document.createElement('ul');
-for (const i of p4.tech) {
-  const li = document.createElement('li');
-  li.innerText = i;
-  tech4.appendChild(li);
-}
-div8.appendChild(tech4);
-div7.appendChild(div8);
-const button4 = document.createElement('button');
-button4.type = 'button';
-button4.className = 'button2';
-button4.innerText = p4.button;
-button4.onclick = function () { myFunction2(); };
-div7.appendChild(button4);
-
-// fourth card
-const div9 = document.createElement('div');
-div9.className = 'projects_art';
-
-const h35 = document.createElement('h3');
-h35.innerText = p2.title;
-div9.appendChild(h35);
-project_desktop.appendChild(div9);
-
-const para5 = document.createElement('p');
-para5.innerText = p2.description;
-div9.appendChild(para5);
-
-const div10 = document.createElement('div');
-div10.className = 'sites12';
-const tech5 = document.createElement('ul');
-for (const i of p2.tech) {
-  const li = document.createElement('li');
-  li.innerText = i;
-  tech5.appendChild(li);
-}
-div10.appendChild(tech5);
-div9.appendChild(div10);
-const button5 = document.createElement('button');
-button5.type = 'button';
-button5.className = 'button2';
-button5.innerText = p2.button;
-button5.onclick = function () { myFunction2(); };
-div9.appendChild(button5);
-
-// fifth card
-const div11 = document.createElement('div');
-div11.className = 'projects_data';
-
-const h36 = document.createElement('h3');
-h36.innerText = p3.title;
-div11.appendChild(h36);
-project_desktop.appendChild(div11);
-
-const para6 = document.createElement('p');
-para6.innerText = p3.description;
-div11.appendChild(para6);
-
-const div12 = document.createElement('div');
-div12.className = 'sites12';
-const tech6 = document.createElement('ul');
-for (const i of p3.tech) {
-  const li = document.createElement('li');
-  li.innerText = i;
-  tech6.appendChild(li);
-}
-div12.appendChild(tech6);
-div11.appendChild(div12);
-const button6 = document.createElement('button');
-button6.type = 'button';
-button6.className = 'button2';
-button6.innerText = p3.button;
-button6.onclick = function () { myFunction2(); };
-div11.appendChild(button6);
-
-// sisth card
-const div13 = document.createElement('div');
-div13.className = 'projects_web';
-
-const h37 = document.createElement('h3');
-h37.innerText = p4.title;
-div13.appendChild(h37);
-project_desktop.appendChild(div13);
-
-const para7 = document.createElement('p');
-para7.innerText = p4.description;
-div13.appendChild(para7);
-
-const div14 = document.createElement('div');
-div14.className = 'sites12';
-const tech7 = document.createElement('ul');
-for (const i of p4.tech) {
-  const li = document.createElement('li');
-  li.innerText = i;
-  tech7.appendChild(li);
-}
-div14.appendChild(tech7);
-div13.appendChild(div14);
-const button7 = document.createElement('button');
-button7.type = 'button';
-button7.className = 'button2';
-button7.innerText = p4.button;
-button7.onclick = function () { myFunction2(); };
-div13.appendChild(button7);
 
 // designing popup window
 const popup_desktop = document.getElementById('popup_desktop');
