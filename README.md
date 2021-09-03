@@ -12,6 +12,9 @@ Then me and my  partner implemented the mobile menu using recently acquired Java
 That when the hamburger icon is clicked the menu appears.
 When the x-icon is clicked the menu disappears.
 When any of the links on the menu are clicked, the menu disappears and you are taken to the corresponding page.
+Next I implemented a popup window that includes the project details in both desktop and mobile views. In order to do that, I needed to store the information about my projects in a JavaScript object so that when the page was loaded the projects will be created dynamically by javascript.
+
+
 
 
 
@@ -53,6 +56,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@Kingstalux](https://github.com/Kingstalux)
 - Twitter: [@NguKingsley](https://twitter.com/NguKingsley)
 - LinkedIn: [Ngu Kingsely](https://www.linkedin.com/in/ngu-kingsely-junior-cho-974b60136/)
+
+## Authors
+
+👤 **Gordon**
+
+- GitHub: [@1GORDON](https://github.com/1GORDON)
 
 
 
