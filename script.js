@@ -76,7 +76,7 @@ const mobile_container = [
 ];
 
 const projects_container = [
-  p1 = {
+  {
     title: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     tech: ['css', 'html', 'bootstrap', 'Ruby'],
@@ -87,7 +87,7 @@ const projects_container = [
     'link to source': '#2',
   },
 
-  p2 = {
+  {
     title: 'Professional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     tech: ['html', 'bootstrap', 'Ruby'],
@@ -96,7 +96,7 @@ const projects_container = [
     'link to source': '#4',
   },
 
-  p3 = {
+  {
     title: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     tech: ['html', 'bootstrap', 'Ruby'],
@@ -105,7 +105,7 @@ const projects_container = [
     'link to source': '#6',
   },
 
-  p4 = {
+  {
     title: 'Website Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     tech: ['html', 'bootstrap', 'Ruby'],
@@ -114,7 +114,7 @@ const projects_container = [
     'link to source': '#8',
   },
 
-  p5 = {
+  {
     title: 'Keeping track of hundreds of components website',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     tech: ['html', 'Bootstrap', 'Ruby on rails'],
@@ -124,6 +124,12 @@ const projects_container = [
   },
 
 ];
+
+const p1 = projects_container[0];
+const p2 = projects_container[1];
+const p3 = projects_container[2];
+const p4 = projects_container[3];
+const p5 = projects_container[4];
 
 // first mobile project
 const div21 = document.getElementById('ret');
