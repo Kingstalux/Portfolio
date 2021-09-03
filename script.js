@@ -10,7 +10,33 @@ const myFunction1 = () => {
   document.body.classList.remove('overflow');
 };
 
+const myFunction2 = () => {
+  document.getElementById('popup_desktop').classList.add('view');
+  window.scrollTo(0, 0);
+  document.body.classList.add('overflow');
+  document.getElementById('sect').classList.add('blur');
+};
 
+const myFunction3 = () => {
+  document.getElementById('popup_desktop').classList.remove('view');
+  window.scrollTo(0, 1000);
+  document.body.classList.remove('overflow');
+  document.getElementById('sect').classList.remove('blur');
+};
+
+const myFunction4 = () => {
+  document.getElementById('popup_mobile').classList.add('see');
+  window.scrollTo(0, 0);
+  document.body.classList.add('overflow');
+  document.getElementById('sect').classList.add('blur');
+};
+
+const myFunction5 = () => {
+  document.getElementById('popup_mobile').classList.remove('see');
+  window.scrollTo(0, 1000);
+  document.body.classList.remove('overflow');
+  document.getElementById('sect').classList.remove('blur');
+};
 
 const mobile_container = [
   {
