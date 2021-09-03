@@ -8,6 +8,33 @@ const myFunction1 = () => {
   document.body.classList.remove('overflow');
 }
 
+const myFunction2 = () => {
+  document.getElementById('popup_desktop').classList.add('view');
+  window.scrollTo(0, 0);
+  document.body.classList.add('overflow');
+  document.getElementById("sect").classList.add("blur")
+}
+
+const myFunction3 = () => {
+  document.getElementById('popup_desktop').classList.remove('view');
+  window.scrollTo(0, 1000);
+  document.body.classList.remove('overflow');
+  document.getElementById("sect").classList.remove("blur")
+}
+
+const myFunction4 = () => {
+  document.getElementById('popup_mobile').classList.add('see');
+  window.scrollTo(0, 0);
+  document.body.classList.add('overflow');
+  document.getElementById("sect").classList.add("blur")
+}
+
+const myFunction5 = () => {
+  document.getElementById('popup_mobile').classList.remove('see');
+  window.scrollTo(0, 1000);
+  document.body.classList.remove('overflow');
+  document.getElementById("sect").classList.remove("blur")
+}
 
 const mobile_container =  [
   {
@@ -449,7 +476,7 @@ popup_desktop.appendChild(div15)
 
 const img2 = document.createElement("img")
 img2.src = "images/Iconx.png"
-img2.src = "cancel"
+img2.alt = "cancel2"
 img2.onclick = function() {myFunction3()};
 div16.appendChild(img2)
 

@@ -1303,6 +1303,10 @@ display: none;  }
 
 @media (min-width: 1500px) {
 
+  .live p {
+    margin-bottom: 250px;
+  }
+
   .works3 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -1366,6 +1370,11 @@ display: none;  }
   .store p {
     width: 448px;
     height: 140px;
+  }
+
+  .but {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
   }
 }
 
