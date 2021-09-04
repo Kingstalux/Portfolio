@@ -386,6 +386,6 @@ form.addEventListener('input', () => {
 });
 
 const fetchData = JSON.parse(localStorage.getItem('inputs'));
-// myName.value = fetchData.myName;
-// mail.value = fetchData.myEmail;
-// message.value = fetchData.myMessage;
+myName.value = fetchData.myName;
+mail.value = fetchData.myEmail;
+message.value = fetchData.myMessage;
