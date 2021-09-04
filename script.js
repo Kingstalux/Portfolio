@@ -178,7 +178,7 @@ div25.appendChild(div26);
 popup_mobile.appendChild(div25);
 
 const img8 = document.createElement('img');
-img8.src = 'images/iconx.png';
+img8.src = 'images/Iconx.png';
 img8.alt = 'cancel icon';
 img8.onclick = function () { myFunction5(); };
 div26.appendChild(img8);
