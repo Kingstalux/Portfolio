@@ -15,6 +15,10 @@ body {
   display: none;
 }
 
+#error {
+  color: red;
+}
+
 .body {
   margin: 0;
   display: grid;
