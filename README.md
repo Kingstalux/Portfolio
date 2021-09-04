@@ -13,6 +13,7 @@
 > When any of the links on the menu are clicked, the menu disappears and you are taken to the corresponding page.
 > Next I implemented a popup window that includes the project details in both desktop and mobile views. In order to do that, I needed to store the information about my projects in a JavaScript object so that when the page was loaded the projects will be created dynamically by javascript. 
 We also added email form validation so that the browser could confirm the information before sending it to the server.
+We then saved the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 ## Built With
 
