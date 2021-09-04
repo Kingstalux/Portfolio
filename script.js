@@ -1,4 +1,4 @@
-/* eslint no-undef: "error" */
+/* eslint no-restricted-syntax: 0 */
 
 const myFunction = () => {
   document.getElementById('drop-menu').classList.add('show');
@@ -9,6 +9,12 @@ const myFunction1 = () => {
   document.getElementById('drop-menu').classList.remove('show');
   document.body.classList.remove('overflow');
 };
+
+const union = document.getElementById('union');
+union.onclick = function () { myFunction(); };
+
+const cancel = document.getElementById('cancelImage');
+cancel.onclick = function () { myFunction1(); };
 
 const myFunction2 = () => {
   document.getElementById('popup_desktop').classList.add('view');
@@ -38,7 +44,7 @@ const myFunction5 = () => {
   document.getElementById('sect').classList.remove('blur');
 };
 
-const projects_container = [
+const projectsContainer = [
   {
     title: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -48,7 +54,7 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#1',
     'link to source': '#2',
-    class: "hide"
+    class: 'hide',
   },
 
   {
@@ -58,8 +64,8 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#3',
     'link to source': '#4',
-    class: "projects_web",
-    image: "images/Img2.png"
+    class: 'projects_web',
+    image: 'images/Img2.png',
   },
 
   {
@@ -69,8 +75,8 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#5',
     'link to source': '#6',
-    class: "projects_data",
-    images: "images/Img2b.png"
+    class: 'projects_data',
+    images: 'images/Img2b.png',
   },
 
   {
@@ -80,8 +86,8 @@ const projects_container = [
     button: 'See Project',
     'link to live version': '#7',
     'link to source': '#8',
-    class: "projects_art",
-    images: "images/Img2c.png"
+    class: 'projects_art',
+    images: 'images/Img2c.png',
   },
 
   {
@@ -91,18 +97,15 @@ const projects_container = [
     'live button': 'See live',
     'source button': 'See Source',
     'image desktop': 'images/Snapshoot.png',
-    class: "hide",
+    class: 'hide',
     'link to live version': '#9',
-    'link to source': '#10'
+    'link to source': '#10',
   },
 
 ];
 
-const p1 = projects_container[0];
-const p2 = projects_container[1];
-const p3 = projects_container[2];
-const p4 = projects_container[3];
-const p5 = projects_container[4];
+const p1 = projectsContainer[0];
+const p5 = projectsContainer[4];
 
 // first mobile project
 const div21 = document.getElementById('ret');
@@ -158,15 +161,15 @@ function renderProject(p) {
 const pro = document.getElementById('pro');
 pro.className = 'project_container';
 
-for (let j = 0; j < 2; j++) {
-  for (let i = 3; i > 0; i--) {
-    p = projects_container[i];
+for (let j = 0; j < 2; j += 1) {
+  for (let i = 3; i > 0; i -= 1) {
+    const p = projectsContainer[i];
     pro.insertAdjacentHTML('afterend', renderProject(p));
-  }  
+  }
 }
 
 // mobile popup window
-const popup_mobile = document.getElementById('popup_mobile');
+const popupMobile = document.getElementById('popup_mobile');
 const div25 = document.createElement('div');
 div25.className = 'mult1';
 const div26 = document.createElement('div');
@@ -175,7 +178,7 @@ const h2 = document.createElement('h2');
 h2.innerText = 'Multi Post Stories';
 div26.appendChild(h2);
 div25.appendChild(div26);
-popup_mobile.appendChild(div25);
+popupMobile.appendChild(div25);
 
 const img8 = document.createElement('img');
 img8.src = 'images/iconx.png';
@@ -183,7 +186,7 @@ img8.alt = 'cancel icon';
 img8.onclick = function () { myFunction5(); };
 div26.appendChild(img8);
 const list = document.createElement('ul');
-list.className = "rub";
+list.className = 'rub';
 for (const i of p5.tech) {
   const li = document.createElement('li');
   li.innerText = i;
@@ -277,19 +280,18 @@ function desktopProject(p) {
   `;
   return projectDesktop;
 }
-const project_desktop = document.getElementById('project_desktop');
+const projectsDesktop = document.getElementById('project_desktop');
 
-
-for (let j = 0; j < 2; j++) {
-  for (let i = 1; i < 4; i++) {
-    p = projects_container[i];
-    project_desktop.insertAdjacentHTML('afterend', desktopProject(p));
+for (let j = 0; j < 2; j += 1) {
+  for (let i = 1; i < 4; i += 1) {
+    const p = projectsContainer[i];
+    projectsDesktop.insertAdjacentHTML('afterend', desktopProject(p));
   }
 }
 
 // designing popup window
-const popup_desktop = document.getElementById('popup_desktop');
-popup_desktop.className = 'final';
+const popupDesktop = document.getElementById('popup_desktop');
+popupDesktop.className = 'final';
 const div15 = document.createElement('div');
 div15.className = 'mult';
 const div16 = document.createElement('div');
@@ -298,7 +300,7 @@ const h1 = document.createElement('h1');
 h1.innerText = p5.title;
 div16.appendChild(h1);
 div15.appendChild(div16);
-popup_desktop.appendChild(div15);
+popupDesktop.appendChild(div15);
 
 const img2 = document.createElement('img');
 img2.src = 'images/Iconx.png';
@@ -354,3 +356,17 @@ button9.className = 'button7';
 button9.innerText = p5['source button'];
 button9.appendChild(img4);
 div19.appendChild(button9);
+
+// validating contact form
+const form = document.getElementsByTagName('form')[0];
+const { email } = form.elements;
+
+const errorElement = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorElement.style.display = 'block';
+    errorElement.textContent = 'Invalid email, please use lowercase';
+  }
+});
