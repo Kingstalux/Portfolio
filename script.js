@@ -370,3 +370,22 @@ form.addEventListener('submit', (e) => {
     errorElement.textContent = 'Invalid email, please use lowercase';
   }
 });
+
+// Local storage
+const myName = document.getElementById('name');
+const mail = document.getElementById('email');
+const message = document.getElementById('text');
+
+form.addEventListener('input', () => {
+  const inputs = {
+    myName: myName.value,
+    myEmail: mail.value,
+    myMessage: message.value,
+  };
+  localStorage.setItem('inputs', JSON.stringify(inputs));
+});
+
+const fetchData = JSON.parse(localStorage.getItem('inputs'));
+myName.value = fetchData.myName;
+mail.value = fetchData.myEmail;
+message.value = fetchData.myMessage;
