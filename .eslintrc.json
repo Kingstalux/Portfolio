@@ -1,4 +1,4 @@
-{
+  {
     "env": {
       "browser": true,
       "es6": true,
@@ -11,9 +11,6 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
-      "no-restricted-syntax": "off",
-      "camelcase": "off",
-      "no-unused-vars": "off",
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
@@ -26,3 +23,4 @@
       "build/"
     ]
   }
+  
