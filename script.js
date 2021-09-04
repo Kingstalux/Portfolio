@@ -178,7 +178,7 @@ div25.appendChild(div26);
 popup_mobile.appendChild(div25);
 
 const img8 = document.createElement('img');
-img8.src = 'images/iconx.png';
+img8.src = 'images/Iconx.png';
 img8.alt = 'cancel icon';
 img8.onclick = function () { myFunction5(); };
 div26.appendChild(img8);
@@ -354,3 +354,19 @@ button9.className = 'button7';
 button9.innerText = p5['source button'];
 button9.appendChild(img4);
 div19.appendChild(button9);
+
+
+//Local starge
+form.addEventListener('input', () => {
+  const object = {
+    myname: myName.value,
+    myemail: email.value,
+    mymessage: message.value
+  }
+  localStorage.setItem('object', JSON.stringify(object))
+});
+
+const fetchData = JSON.parse(localStorage.getItem('object'));
+myName.value = fetchData.myname;
+email.value = fetchData.myemail;
+message.value = fetchData.mymessage;
